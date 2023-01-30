@@ -10,9 +10,9 @@ from .remove_hairs import remove_hairs_decorator
 
 from .serializer import MARCXMLSerializer
 
-from structures import Person
-from structures import Corporation
-from structures import PublicationType
+from structures.person import Person
+from structures.corporation import Corporation
+from structures.publication_type import PublicationType
 
 
 # Variables ===================================================================

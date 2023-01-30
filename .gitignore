@@ -6,3 +6,5 @@ MANIFEST
 *.html
 src/marcxml_parser/aleph
 src/marcxml_parser/decoders/aleph
+.venv/
+build/
