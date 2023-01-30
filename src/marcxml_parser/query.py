@@ -4,7 +4,7 @@
 # Interpreter version: python 2.7
 #
 # Imports =====================================================================
-import remove_hairs
+#import remove_hairs
 from .remove_hairs import remove_hairs as remove_hairs_fn
 from .remove_hairs import remove_hairs_decorator
 
@@ -16,7 +16,7 @@ from structures import PublicationType
 
 
 # Variables ===================================================================
-remove_hairs.HAIRS = r" :;<>(){}[]\/"
+#remove_hairs.HAIRS = r" :;<>(){}[]\/"
 
 
 # Functions & classes =========================================================
@@ -626,7 +626,7 @@ class MARCXMLQuery(MARCXMLSerializer):
             list/str: See :meth:`.MARCXMLParser.get_subfields` for details, or\
                 None in case that nothing was found.
         """
-        if not isinstance(item, basestring):
+        if not isinstance(item, str):
             raise ValueError("Only str/unicode indexes are supported!")
 
         if len(item) == 3:
