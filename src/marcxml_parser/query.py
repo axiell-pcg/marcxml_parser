@@ -5,8 +5,8 @@
 #
 # Imports =====================================================================
 import remove_hairs
-from remove_hairs import remove_hairs as remove_hairs_fn
-from remove_hairs import remove_hairs_decorator
+from .remove_hairs import remove_hairs as remove_hairs_fn
+from .remove_hairs import remove_hairs_decorator
 
 from .serializer import MARCXMLSerializer
 
