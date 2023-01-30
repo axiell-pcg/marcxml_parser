@@ -38,7 +38,6 @@ setup(
     install_requires=[
         'setuptools',
         "pyDHTMLParser>=2.0.7",
-        "remove_hairs",
         "enum34",
     ],
     extras_require={
